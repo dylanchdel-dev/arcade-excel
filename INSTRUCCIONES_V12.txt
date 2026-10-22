@@ -1,0 +1,15 @@
+ARCADE EXCEL V12 — WEB SIN INSTALACIONES PARA VISITANTES
+
+1. Publica el contenido de esta carpeta como repositorio GitHub (rama main).
+2. En GitHub > Settings > Pages > Build and deployment elige Source: GitHub Actions.
+3. Ejecuta la acción Publicar Arcade Excel V12 (o haz push en main).
+4. La acción PREPARAR_SITIO.py descarga el motor libre Chocolate Doom WASM y los dos WAD oficiales de Freedoom v0.13.0. Los ubica en el mismo sitio estático.
+5. Abre la URL de GitHub Pages: Phase 1 y Phase 2 se cargarán automáticamente sin descargar ni instalar programas por parte del visitante.
+
+PARA PROBAR EN UN SERVIDOR DE DESARROLLO: desde una máquina con Python e internet, ejecuta python PREPARAR_SITIO.py y luego python -m http.server 8080.
+
+IMPORTANTE: Este ZIP todavía NO contiene los binarios de juego. No lo publiques sin ejecutar PREPARAR_SITIO.py; la tarea de publicación hace ese paso.
+No se ha probado el inicio y guardado de las partidas en un navegador real: son pruebas pendientes tras la publicación.
+Fuentes: github.com/danborden1/doom-web ; github.com/freedoom/freedoom/releases/tag/v0.13.0
+Licencias: GPL-2.0 motor, Freedoom BSD-3-Clause. Se copian avisos y créditos originales.
+Los otros juegos del catálogo mantienen sus estados anteriores y no están incluidos como juegos completos.

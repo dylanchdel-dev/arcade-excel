@@ -1,0 +1,5 @@
+juegos/freedoom/*
+!juegos/freedoom/PON_AQUI_ARCHIVOS_DEL_INSTALADOR.txt
+juegos/freedoom2/
+_site/
+__pycache__/

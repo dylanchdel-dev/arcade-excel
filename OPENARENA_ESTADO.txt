@@ -1,0 +1,17 @@
+OPENARENA — ETAPA 5 — ESTADO REAL
+
+- Incorporado al catálogo: Sí.
+- Acceso al reproductor web de tercero: Sí (se requiere internet).
+- Reproducción dentro de iframe: no comprobada y puede bloquearse por política de seguridad del proveedor.
+- Edición WebAssembly consultada: 3 mapas con bots; no es el juego completo.
+- Paquete autónomo local de OpenArena completo: NO instalado.
+- Instalador automático: NO disponible hasta identificar binarios WebAssembly completos redistribuibles y verificarlos.
+- Versión de escritorio oficial disponible: https://sourceforge.net/projects/oarena/files/
+- Motor oficial (fuentes): https://github.com/OpenArena/engine
+- Versión web externa: https://tkgames.cz/en/retro/openarena/
+
+PLAN AL LLEGAR A 10 JUEGOS
+- Probar navegador en Windows; validar iframes y controles.
+- Instalar/verificar ambos Freedoom.
+- Buscar o compilar OpenArena WebAssembly con datos completos y licencias.
+- No presentar esta edición reducida como integración completa.

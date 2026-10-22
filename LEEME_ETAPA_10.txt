@@ -1,0 +1,13 @@
+ARCADE EXCEL V10 — 10 títulos en catálogo.
+
+NUEVOS: Chex Quest 1, Chex Quest 2, Heretic: Shadow of the Serpent Riders. Los tres figuran en Libro2.xlsx.
+
+ESTADO: Se agregó interfaz para cargar el reproductor Dwasm en un iframe y botón de alternativa externa. No están incluidos archivos de juegos ni un motor WebAssembly alojado localmente. Los juegos NO han sido verificados como funcionales dentro del iframe.
+
+Chex Quest: requiere CHEX.WAD; obtenerlo en chexquest3.com/downloads.
+Chex Quest 2: requiere CHEX.WAD y parche correspondiente al episodio 2.
+Heretic: requiere HERETIC.WAD original comprado/legal.
+
+Los reproductores externos pueden rechazar iframe. Para auditar: probar carga de WAD, teclado, audio, guardado, pantalla completa y permisos de redistribución.
+
+No confundir catálogo de 10 juegos con 10 juegos autocontenidos y funcionales.

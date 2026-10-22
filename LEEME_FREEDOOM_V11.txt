@@ -1,0 +1,13 @@
+ARCADE V11 — FREEDOOM PHASE 1 y PHASE 2
+
+En Windows con internet: ejecutar INSTALAR_FREEDOOM_AMBOS.bat una vez.
+Luego: ejecutar INICIAR_ARCADE.bat, abrir la pagina local y pulsar JUGAR en Phase 1 o 2.
+El navegador no ejecuta WebAssembly desde file://; es necesario el servidor local incluido.
+Para publicar la web, copiar las carpetas juegos/freedoom y juegos/freedoom2 ya instaladas al servidor.
+No hay proveedores externos en ejecucion: motor WASM, JS y WAD se sirven desde la propia web.
+Los juegos completos incluyen 36 niveles (Phase 1) y 32 niveles (Phase 2).
+Licencias: motor Chocolate Doom GPLv2; datos Freedoom BSD-3-Clause. Conservar archivos COPYING y CREDITOS y enlace a codigo fuente.
+Fuente motor: https://github.com/danborden1/doom-web
+Fuente datos: https://github.com/freedoom/freedoom/releases/tag/v0.13.0
+
+LIMITACION: no fue posible obtener archivos binarios desde este entorno; no se ha ejecutado el juego en navegador Windows. El instalador los descarga al ejecutarlo en tu PC.

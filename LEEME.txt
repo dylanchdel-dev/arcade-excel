@@ -1,0 +1,30 @@
+ARCADE EXCEL WEB V4
+
+1) Windows + internet: ejecutar INSTALAR_JUEGO_1.bat.
+2) Windows + internet: ejecutar INSTALAR_JUEGO_2.bat.
+3) Ejecutar INICIAR_ARCADE.bat y abrir http://localhost:8765/
+4) Elegir Phase 1 o Phase 2 y pulsar JUGAR.
+
+Los ejecutables, WASM y WAD no vienen incluidos en este ZIP; los instaladores obtienen ficheros de GitHub. Phase 2 requiere Phase 1 para reutilizar el motor web. El instalador de Phase 2 adapta el HTML del motor; la compatibilidad debe probarse en Windows. Los juegos de Freedoom son libres, no son Doom comercial. Para jugar sin internet tras descargar los ficheros, conservar toda la carpeta en USB.
+
+Fuentes:
+https://github.com/danborden1/doom-web
+https://github.com/freedoom/freedoom/releases/tag/v0.13.0
+
+
+V5: OpenArena agregado como acceso WEB EXTERNO de prueba (3 mapas), no como juego completo autónomo. Leer OPENARENA_ESTADO.txt.
+
+
+NOVEDAD V6 — CAVE STORY
+- Ejecuta INSTALAR_CAVE_STORY.bat para descargar el Cave Story completo original desde Studio Pixel.
+- Ejecuta JUGAR_CAVE_STORY_PC.bat para iniciarlo en Windows.
+- En el HTML figura un sitio web externo de Cave Story (requiere internet): NO esta alojado en el ZIP.
+- Este ZIP no distribuye el contenido comercial de terceros ni el archivo freeware original.
+- No se ha probado el instalador en Windows; antes de usarlo revisa alertas de seguridad y procedencia.
+- El guardado de partidas de la web externa puede borrarse con los datos del navegador.
+
+ETAPA 7: Enemy Territory se suma como quinto titulo. La edicion web es EXTERNA y necesita datos descargados; en PC usa ET: Legacy y sus recursos gratuitos originales (licencia separada). No es una version web autonoma ni fue probada en Windows.
+
+JUEGO 6: HACX 1.2 — Ejecuta INSTALAR_JUEGO_1.bat (motor), luego INSTALAR_JUEGO_6_HACX.bat. Descarga oficial, chequeo MD5 y montaje experimental. Solo uso no comercial. Aun no probado en navegador; no se considera juego integrado operativo hasta validacion.
+
+JUEGO 7: CHEX QUEST 3 — En https://www.chexquest3.com/downloads/ existe una edicion completa gratuita para Windows. El ZIP no contiene los datos del juego. La opcion web requiere CHEX3.WAD aportado por el usuario y un motor compatible; PREPARAR_JUEGO_7_CHEXQUEST3.bat es experimental y no esta validado. Chex Quest es marca de General Mills. No revender archivos ni asumir permiso de alojamiento publico.
